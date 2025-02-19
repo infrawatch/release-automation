@@ -7,7 +7,7 @@ on:
 jobs:
   periodic_release_head:
     name: Periodic Release for HEAD
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
 
       - name: Get operator-sdk
@@ -67,7 +67,7 @@ jobs:
 
   periodic_release_1_5:
     name: Periodic Release for STF 1.5
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Get operator-sdk
